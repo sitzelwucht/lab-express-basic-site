@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
-
-app.listen(3000, () => {
-    console.log(__dirname)
+const port = 3000
+app.listen(port, () => {
+    console.log(`listening on port ${port}`)
 })
 
 app.use(express.static(__dirname + '/public'))
