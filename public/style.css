@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center
+}
+div {
+    width: 30%;
+    margin: auto
+}
+ul {
+    list-style-type: none;
+}
+
+#pics {
+    display: flex;
+    flex-direction: column;
+}
